@@ -103,6 +103,17 @@ pause
 Clear-Host
 
 Write-Host "======= $Title ======"
+Write-Host " 1. OS Downloads & ISO Creation"
+Write-Host " 2. OSD WIM Modifications"
+Write-Host " 3. Software Installation/Updates/Upgrades"
+Write-Host " 4. Domain Administration Tasks"
+Write-Host " 5. Local Computer Administration Tasks"
+Write-Host " 6. Backup/Restore User Profile Data"
+Write-Host " 7. OSDCloud"
+Write-Host " 8. Audit Mode Configuration Scripts"
+Write-Host " 9. Debloat Operating System"
+
+Write-Host "======= $Title ======"
 Write-Host " 1. Initial OS Installation FULL Configuration"
 Write-Host " 2. Windows Domain Administration Tasks"
 Write-Host " 3. Local Computer Administration Tasks"
