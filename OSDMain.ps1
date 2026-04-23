@@ -113,6 +113,32 @@ Write-Host " 7. OSDCloud"
 Write-Host " 8. Audit Mode Configuration Scripts"
 Write-Host " 9. Debloat Operating System"
 
+do 
+{
+  $selection = Read-Host 'Please choose an option'
+  switch($selection)
+  {
+  '1'{  cls
+        $OSDownloadsISO = Invoke-WebRequest("")
+        Invoke-Expression $($OSDownloadsISO.Content)
+      }
+  '2' { cls
+        $OSModifications = Invoke-WebRequest ("https://github.com/osdcloudcline/Scripts/raw/refs/heads/main/Administrative/OSModsMainMenu.ps1")
+        Invoke-Expression $($OSModifications.Content)
+        }
+  '3'{  cls
+        $Software = Invoke-WebRequest("")
+        Invoke-Expression $($Software.Content)
+      }
+  '4' { cls
+        $Domain = Invoke-WebRequest ("")
+        Invoke-Expression $($Domain.Content)
+        }
+ '5' { cls
+        $LocalPC = Invoke-WebRequest ("")
+        Invoke-Expression $($LocalPC.Content)
+        }
+		
 Write-Host "======= $Title ======"
 Write-Host " 1. Initial OS Installation FULL Configuration"
 Write-Host " 2. Windows Domain Administration Tasks"
