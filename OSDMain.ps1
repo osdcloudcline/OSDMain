@@ -112,6 +112,10 @@ Write-Host " 6. Backup/Restore User Profile Data"
 Write-Host " 7. OSDCloud"
 Write-Host " 8. Audit Mode Configuration Scripts"
 Write-Host " 9. Debloat Operating System"
+Write-Host " 10. Administrative System Tasks"
+Write-Host " 11. Scan SYSTEM Firmware to find security vulneralbilities"
+Write-Host " 12. Computer File Inventory"
+Write-Host " 13. Exit PowerShell"
 
 do 
 {
